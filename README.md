@@ -67,7 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://batoolfatima2135.github.io/Leaderboard/)
+- [Live Demo Link](https://batoolfatima2135.github.io/Leaderboard/dist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
