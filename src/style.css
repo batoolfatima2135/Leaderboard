@@ -1,3 +1,55 @@
 body {
-    background-color: bisque;
+  margin-left: 100px;
+}
+
+.Recent-score {
+  display: flex;
+}
+
+main {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.refresh {
+  height: 20px;
+  margin: auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.column {
+  float: left;
+  width: 40%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+input {
+  margin-bottom: 15px;
+  height: 20px;
+}
+
+.submit {
+  align-self: flex-end;
 }
