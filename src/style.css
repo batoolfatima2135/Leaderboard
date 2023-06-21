@@ -10,10 +10,9 @@ main {
   margin: 30px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.refresh {
+#refresh {
   height: 20px;
   margin: auto;
 }
