@@ -63,6 +63,7 @@
 - **Scores**
 - **Input to put new Score**
 - **Hit the API**
+- **Styling**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,7 +153,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add Styling**
+- [ ] **Add Interations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
