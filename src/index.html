@@ -5,27 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaderboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
 </head>
 
-<body>
-    <h1>Leaderboard</h1>
-    <main>
-        <div class="column">
-            <div class="Recent-score">
-                <h2>Recent Scores</h2>
-                <button id="refresh">Refresh</button>
+<body class="bg-primary text-light">
+    <main class="container">
+      <h1 class="my-4 text-warning">Leaderboard</h1>
+   
+        <div class="row">
+            <div class="col-7">
+                <div class="row my-3">
+                <div class="col-6"><h2 class="text-warning">Recent Scores</h2></div>
+                <div class="col-6"><button class="btn btn-warning" id="refresh">Refresh</button></div>
+                </div>
+                <div id="table"></div>
+                
             </div>
-            <div id="table"></div>
+            <div class="col-4" >
+                <h2 class="text-warning my-4">Add your score</h2>
+                <form id="submit">
+                    <div class="mb-3">
+                        <input type="text" id="name" class="form-control" placeholder="Your name">                   
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" id="score" class="form-control" placeholder="Your score">
+                    </div>
+                    <div class="text-end">
+                        <button type="submit" class="btn btn-warning btn-lg">Submit</button>
+                    </div>
+                  </form>
+            </div>
+            
         </div>
-        <div class="column" >
-            <h2>Add your score</h2>
-            <form id="submit">
-                <input type="text" id="name" placeholder="Your name">
-                <input type="text" id="score" placeholder="Your score">
-                <button class="submit" >Submit</button>
-            </form>
-        </div>
+      
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </body>
 
 </html>
