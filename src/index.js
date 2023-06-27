@@ -14,6 +14,7 @@ const addscore = async (name, number) => {
     },
   });
 };
+
 const display = (scores) => {
   const table = document.createElement('table');
   const div = document.getElementById('table');
@@ -40,9 +41,10 @@ form.addEventListener('submit', (event) => {
 const fetchscore = async () => {
   const response = await fetch(requestURL);
   const scores = await response.json();
-  display(scores.result);
+  const updatedArr = [...scores.result];
+  const sortedArr = updatedArr.sort((a, b) => b.score - a.score);
+  display(sortedArr);
 };
-
 const refresh = document.getElementById('refresh');
 refresh.addEventListener('click', () => fetchscore());
 fetchscore();
